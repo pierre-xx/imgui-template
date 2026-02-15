@@ -152,6 +152,9 @@
     <ClInclude Include="include\imgui\imstb_truetype.h" />
     <ClInclude Include="include\renderer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

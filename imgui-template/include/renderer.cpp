@@ -185,13 +185,11 @@ void Renderer::end() {
     g_SwapChainOccluded = (hr == DXGI_STATUS_OCCLUDED);
 }
 
-bool Renderer::running()
-{
+bool Renderer::running() {
     return !done;
 }
 
-void Renderer::shutdown()
-{
+void Renderer::shutdown() {
     ImGui_ImplDX11_Shutdown();
     ImGui_ImplWin32_Shutdown();
     ImGui::DestroyContext();

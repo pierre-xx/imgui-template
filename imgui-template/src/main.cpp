@@ -1,6 +1,5 @@
 #include <renderer.h>
 #include <imgui.h>
-#include <imgui_stdlib.h>
 
 int main() {
 	Renderer renderer;
